@@ -20,5 +20,8 @@ public class Main extends Application {
 			e.printStackTrace();
 		}
 	}
+	public static void main(String[] Args) {
+		launch(Args);
+	}
 	
 }
