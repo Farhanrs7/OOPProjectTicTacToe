@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="418.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="box1" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="46.0" layoutY="47.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="1.0" y="1.0" />
+      <Rectangle fx:id="box2" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="173.0" layoutY="47.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="2.0" y="1.0" />
+      <Rectangle fx:id="box3" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="298.0" layoutY="48.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="3.0" y="1.0" />
+      <Rectangle fx:id="box4" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="46.0" layoutY="168.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="1.0" y="2.0" />
+      <Rectangle fx:id="box5" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="173.0" layoutY="168.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="2.0" y="2.0" />
+      <Rectangle fx:id="box6" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="298.0" layoutY="168.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="3.0" y="2.0" />
+      <Rectangle fx:id="box7" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="46.0" layoutY="291.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="1.0" y="3.0" />
+      <Rectangle fx:id="box8" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="173.0" layoutY="291.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="2.0" y="3.0" />
+      <Rectangle fx:id="box9" accessibleHelp="true" arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="97.0" layoutX="298.0" layoutY="291.0" onKeyPressed="#drawShapes" onMouseClicked="#highlightBox" stroke="BLACK" strokeType="INSIDE" width="92.0" x="3.0" y="3.0" />
+      
+      
+      <Circle fx:id="circle1" fill="WHITE" layoutX="92.0" layoutY="95.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle2" fill="WHITE" layoutX="219.0" layoutY="94.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle3" fill="WHITE" layoutX="344.0" layoutY="96.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle4" fill="WHITE" layoutX="92.0" layoutY="215.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle5" fill="WHITE" layoutX="219.0" layoutY="215.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle6" fill="WHITE" layoutX="342.0" layoutY="216.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle7" fill="WHITE" layoutX="92.0" layoutY="338.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle8" fill="WHITE" layoutX="220.0" layoutY="338.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Circle fx:id="circle9" fill="WHITE" layoutX="342.0" layoutY="338.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      
+    
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="-5.0" layoutY="-2.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x11" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="-5.0" layoutY="-2.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x12" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="122.0" layoutY="-2.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x21" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="122.0" layoutY="-2.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x22" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="245.0" layoutY="-3.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x31" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="245.0" layoutY="-3.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x32" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="-5.0" layoutY="119.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x41" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="-5.0" layoutY="119.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x42" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="123.0" layoutY="118.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x51" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="123.0" layoutY="118.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x52" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="246.0" layoutY="118.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x61" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="246.0" layoutY="118.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x62" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="-6.0" layoutY="240.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x71" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="-6.0" layoutY="240.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x72" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="123.0" layoutY="241.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x81" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="123.0" layoutY="241.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x82" />
+      <Line endX="124.00000762939453" endY="126.85714721679688" layoutX="246.0" layoutY="241.0" startX="70.1500244140625" startY="67.29289245605469" visible="false" fx:id="x91" />
+      <Line endX="125.27854919433594" endY="66.58578491210938" layoutX="246.0" layoutY="241.0" startX="69.44293212890625" startY="127.56425476074219" visible="false" fx:id="x92" />
+     
+	 
+      <Label fx:id="turnLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="172.0" layoutY="14.0" prefHeight="18.0" prefWidth="92.0" />
+   </children>
+</AnchorPane>
